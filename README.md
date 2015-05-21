@@ -20,3 +20,8 @@ Kræver dobbelt så meget plads, da de to halvdelen skal have hver deres array, 
 Vælger pivot først, og derefter finder den pivotets endelige plads (?). 
 Hvordan vælger man pivot? Det er en god idé at vælge en i midten, i forhold til hastighed. Man laver en algoritme der finder en pivot generelt, før man finder den endelige plads.
 For at finde den endelig plads for pivot, kører man fra ”venstre” først, og tjekker at alle elementer er lavere end pivot. Når man støder på et element der er større end pivot, kører man fra højre mod venstre indtil man finder et element der lavere end pivot. De kan så byttes. Dette fortsætter indtil man finder den sidste plads, som pivot selv må skulle placeres på.
+
+## Searching algorithms: ##
+
+**Binary search ** (kræver en sorteret liste):
+En liste deles op i to lige store dele. Værdien på dette punkt vurderes. Hvis værdien er lavere, halveres den mindste halvdel, og operationen gentages, indtil vi finder elementet eller konkluderer at det ikke er at finde.
