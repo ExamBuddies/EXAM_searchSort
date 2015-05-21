@@ -1,5 +1,7 @@
 # EXAM_searchSort
 
+## Sorting algorithms ##
+
 **Quicksort:** worst case: O(n2)
 Vælger pivot først, og derefter finder den pivotets endelige plads (?). 
 Hvordan vælger man pivot? Det er en god idé at vælge en i midten, i forhold til hastighed. Man laver en algoritme der finder en pivot generelt, før man finder den endelige plads.
