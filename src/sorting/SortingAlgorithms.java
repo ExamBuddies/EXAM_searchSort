@@ -38,6 +38,7 @@ public class SortingAlgorithms {
 	}
 
 	// Bubble sort
+	// https://www.youtube.com/watch?v=8Kp-8OGwphY <- igen; retard, but works.
 	public static int[] bubbleSort(int[] arr){
 		int changes = 1; // Det er mit hjemmehack, det her med changes. Sættes til et så den kører første gang
 		while (changes > 0){ // mens der er sket mere end en ændring sidste gang
@@ -54,7 +55,7 @@ public class SortingAlgorithms {
 		return arr;
 	}
 
-	// Merge sort
+	// Merge sort -> det kan jeg slet ikke overskue! :)
 
 	// Quick sort
 
