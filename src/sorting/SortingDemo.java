@@ -22,12 +22,21 @@ public class SortingDemo {
 		
 		
 		// Insertion sort
+//		long millisBefore = System.currentTimeMillis(); // time before sort
+//		longArr = SortingAlgorithms.insertionSort(longArr);
+//		long sortTime = System.currentTimeMillis() - millisBefore; // Finder tid det tog at sortere ved at trække nuværende time fra før sortering.
+//		
+//		int[] insertionSortArr = SortingAlgorithms.insertionSort(shortArr);
+//		System.out.println("Array after insertion sort: " + Arrays.toString(insertionSortArr) + ".\nSorting 2000 elements took " + sortTime + " milliseconds.");
+		
+		// Bubble sort
 		long millisBefore = System.currentTimeMillis(); // time before sort
-		longArr = SortingAlgorithms.insertionSort(longArr);
+		longArr = SortingAlgorithms.bubbleSort(longArr);
 		long sortTime = System.currentTimeMillis() - millisBefore; // Finder tid det tog at sortere ved at trække nuværende time fra før sortering.
 		
-		int[] insertionSortArr = SortingAlgorithms.insertionSort(shortArr);
-		System.out.println("Array after insertion sort: " + Arrays.toString(insertionSortArr) + ".\nSorting 2000 elements took " + sortTime + " milliseconds.");
+		int[] bubbleSortArr = SortingAlgorithms.bubbleSort(shortArr);
+		System.out.println("Array after insertion sort: " + Arrays.toString(bubbleSortArr) + ".\nSorting 2000 elements took " + sortTime + " milliseconds.");
+
 	}
 	
 	
