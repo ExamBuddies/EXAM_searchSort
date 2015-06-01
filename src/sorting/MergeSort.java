@@ -1,4 +1,4 @@
-
+package sorting;
 // This program implements the merge sort algorithm for
 // arrays of integers.
 
